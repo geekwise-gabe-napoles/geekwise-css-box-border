@@ -1,0 +1,90 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+nav{
+    width:100%;
+    
+    background-color:aquamarine;
+    
+    margin:0;
+    padding-bottom:150px
+}
+
+div{
+    width:calc(100%/4);
+    height:100px;
+    
+    display:inline-block;
+    
+    text-align:center;   
+    
+    margin-top:10%;
+    margin-left:-2px;
+    margin-right:-2px;     
+    position:relative;
+}
+
+#red{
+    background-color:red;
+}
+
+#red:active{
+    background-color:aliceblue;
+}
+
+#red:hover::before{
+    content:'-->';
+}
+
+#red:hover::after{
+    content:'<--'
+}
+
+#green{
+    background-color:green;
+}
+
+#green:active{
+    background-color:darkslateblue;
+}
+
+#green:hover::before{
+    content:'-->';
+}
+
+#green:hover::after{
+    content:'<--'
+}
+
+#yellow{
+    background-color:yellow;
+}
+
+#yellow:active{
+    background-color:lightsalmon;
+}
+
+#yellow:hover::before{
+    content:'-->';
+}
+
+#yellow:hover::after{
+    content:'<--'
+}
+
+#blue{
+    background-color:blue;
+}
+
+#blue:active{
+    background-color:crimson;
+}
+
+#blue:hover::before{
+    content:'-->';
+}
+
+#blue:hover::after{
+    content:'<--'
+}
